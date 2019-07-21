@@ -1,12 +1,16 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 
 html {
   box-sizing: border-box;
+  font-family: 'Amatic SC', cursive;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
