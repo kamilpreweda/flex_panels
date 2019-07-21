@@ -90,7 +90,7 @@ body {
   transform: translateY(100%);
 }
 
-.panel.open-active {
+.panel.open-active>*:last-child {
   transform: translateY(0);
 }
 
